@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    margin: 1px;
+    padding: 2px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* full wrap */
+.full-wrap {
+    width: 800px;
+    margin: auto;
+    /* border: 1px solid gainsboro; */
+    background-color: white;
+    min-height: 100vh;
+    padding: 4px;
+    display: flex;
+}
+
+/* wrap left */
+.wrap-left {
+    flex: 3;
+    margin: 4px;
+    padding: 8px;
+    border: 1px solid gainsboro;
+}
+
+/* wrap tentang saya */
+.wrap-tentang-saya {
+    font-size: 12px;
+    text-align: justify;
+}
+
+/* network */
+.wrap-network {
+    border: 1px solid gainsboro;
+}
+
+.wrap-coding {
+    /* border: 1px solid gainsboro; */
+}
+
+.wrap-coding .coding-group {
+    display: flex;
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+}
+
+.wrap-coding .coding-group span {
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+}
+
+.wrap-coding .coding-group span.key {
+    margin-right: 4px;
+}
+
+.wrap-coding .coding-group span.key img {
+    width: 23px;
+    height: 23px;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap-coding .coding-group span.value {
+    padding: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 12px;
+    width: 100%;
+    height: 23px;
+    margin-top: 2px;
+    background-color: cornflowerblue;
+}
+
+.wrap-coding .coding-group span.value .parse {
+    color: rgb(255, 255, 255);
+    background-color: steelblue;
+    padding: 2px;
+    margin: 0;
+    padding-left: 10px;
+    height: 100%;
+}
+
+/* pendidikan */
+.wrap-pendidikan {
+    /* border: 1px solid gainsboro; */
+    border-bottom: 1px dashed rgb(119, 119, 119);
+    display: flex;
+    margin: 0px;
+    padding-top: 0;
+    width: 95%;
+}
+
+.wrap-pendidikan span {
+    /* border: 1px solid gainsboro; */
+    margin: 0;
+    padding: 0;
+}
+
+.wrap-pendidikan span.value {
+    padding-top: 6px;
+}
+
+/* work */
+.wrap-work {
+    border: 1px solid gainsboro;
+    padding: 4px;
+    background-color: rgba(245, 245, 245, 0.548);
+}
+
+.wrap-work h2 {
+    font-size: 18px;
+}
+
+.wrap-work p {
+    font-size: 13px;
+    /* text-align: justify; */
+}
+
+.wrap-work span {
+    font-size: 13px;
+    color: gray;
+}
+
+/* wrap right */
+.wrap-right {
+    flex: 2;
+    margin: 4px;
+    padding: 8px;
+    border: 1px solid gainsboro;
+}
+
+/* wrap thumb */
+.wrap-thumb {
+    /* border: 1px solid gainsboro; */
+    padding: 10px;
+}
+
+.wrap-thumb .img-thumb {
+    width: 180px;
+    height: 180px;
+    border: 1px solid gainsboro;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.wrap-thumb .img-thumb img {
+    border-radius: 100%;
+}
+
+/* wrap name */
+.wrap-name {
+    text-align: center;
+    /* border: 1px solid gainsboro; */
+}
+
+.wrap-name .name {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* wrap master */
+.wrap-master {
+    padding: 6px;
+    margin-bottom: 6px;
+}
+
+.wrap-master .title-master {
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    padding: 2px;
+    /* border: 1px solid gainsboro; */
+    border-bottom: 1px solid rgb(155, 152, 152);
+    border-right: 2px solid rgb(134, 133, 133);
+}
+
+.wrap-master .title-master span {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap-master .title-master .name-master {
+    padding-top: 5px;
+    padding-left: 4px;
+    text-transform: capitalize;
+}
+
+.wrap-master .master-card {
+    /* border: 1px solid rgba(0, 0, 0, 0.322); */
+    margin: 0;
+    padding: 2px;
+    margin-top: 4px;
+    margin-left: 25px;
+}
+
+/* profil saya */
+.wrap-profil .group-profil {
+    display: flex;
+    font-size: 12px;
+    text-transform: capitalize;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.596);
+    padding: 4px 0;
+}
+
+.wrap-profil .group-profil span.key {
+    font-weight: bold;
+}
+
+/* wrap kontak */
+.wrap-kontak {
+    /* border: 1px solid gainsboro; */
+}
+
+.wrap-kontak .group-kontak {
+    display: flex;
+    /* border: 1px solid gainsboro; */
+    font-size: 12px;
+}
+
+.wrap-kontak .group-kontak span {
+    /* border: 1px solid gainsboro; */
+}
+
+.wrap-kontak .group-kontak span.value {
+    padding-top: 4px;
+    /* font-weight: bold; */
+}
+
+/* bahasa */
+.wrap-bahasa {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.wrap-bahasa span {
+    letter-spacing: 1px;
+}
